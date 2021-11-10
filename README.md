@@ -3,7 +3,7 @@ Taskwarrior Shift All Recurrence Attributes Hook
 
 This is a hook for TaskWarrior (http://www.taskwarrior.org),
 which allow your recurrent tasks to inherit ``scheduled``
-and ``until`` attributes from the parent, something that task-core doesn't yet handle natively
+and ``until`` attributes from the parent.
 
 Install
 -------
