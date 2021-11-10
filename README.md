@@ -2,8 +2,8 @@ Taskwarrior Shift All Recurrence Attributes Hook
 ------------------------------------------------
 
 This is a hook for TaskWarrior (http://www.taskwarrior.org),
-which allow your recurrent tasks to inherit ``wait``, ``scheduled``
-and ``until`` attributes from the parent.
+which allow your recurrent tasks to inherit ``scheduled``
+and ``until`` attributes from the parent, something that task-core doesn't yet handle natively
 
 Install
 -------
@@ -12,7 +12,7 @@ Note: This hook has been rewritten to leverage taskpirate, for greater hook effi
 Please see https://github.com/tbabej/taskpirate for instructions. Don't worry, it's straightforward.
 
 ```
-git clone https://github.com/tbabej/taskwarrior-shift-all-recurrence-hook.git
+git clone https://github.com/tbabej/task.shift-recurrence.git
 cp taskwarrior-shift-all-recurrence-hook/on-* ~/.task/hooks/
 ```
 
